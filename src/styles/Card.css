@@ -1,0 +1,25 @@
+.Card_Container{
+    border: 2px solid rgb(75, 189, 255);
+    width: 150px;
+    min-height: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: flex-end;
+      background-image:  url('../images/bob-ross.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  box-shadow: 2px 2px 3px rgb(0, 168, 112);
+}
+.Card_Container p{
+  background: rgba(255, 255, 255, 0.61);
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 0 3px;
+}
