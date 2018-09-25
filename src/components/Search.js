@@ -19,7 +19,7 @@ class Search extends Component {
 
     handleSearch(search) {
         console.log(search)
-        axios.get(`/api/collection?search=${search}`)
+        axios.get(`/api/collection/search?search=${search}`)
             .then(res => {
                 this.setState({
                     result: res.data

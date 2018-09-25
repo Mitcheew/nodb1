@@ -38,7 +38,7 @@ module.exports = {
     },
 
     search: (req, res) => {
-        const search = req.params.search;
+        const search = req.query.search;
         let result = [];
         console.log(search)
         for(var i = 0; i < cards.length; i++){

@@ -76,8 +76,8 @@ class App extends Component {
           <section className='flex_display'>
             {collection}
           </section>
-          {/* <h1>Search Collection</h1>
-          <Search /> */}
+          <h1>Search Collection</h1>
+          <Search />
         </div>
       </div>
     );

@@ -13,7 +13,7 @@ app.post("/api/collection/", cc.create);
 app.get("/api/collection/", cc.read);
 app.put("/api/collection/:id", cc.update);
 app.delete("/api/collection/:id", cc.delete);
-app.get("/api/collection?search=:search", cc.search);
+app.get("/api/collection/search", cc.search);
 
 app.get("/api/card/", random.read);
 
